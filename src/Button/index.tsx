@@ -28,7 +28,7 @@ export default class Button extends Component<Props, State> {
           this.setState(prevState => ({ active: !prevState.active }))
         }
       >
-        <Text style={styles.text}>Click me</Text>
+        <Text style={styles.text}>Click me...!</Text>
       </TouchableOpacity>
     );
   }

@@ -11,7 +11,9 @@
     "preserveConstEnums": true,
     "allowJs": false,
     "sourceMap": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node", //enable local file imports
+    "watch": true,
+    "declaration": true
   },
   "filesGlob": [
     "typings/index.d.ts",
@@ -24,7 +26,7 @@
     "index.js",
     "android",
     "ios",
-    "build",
+    "build", //the root directory
     "node_modules",
     "__tests__"
   ],

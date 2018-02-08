@@ -7,6 +7,7 @@ export interface Props {}
 export interface State {
   name: string;
 }
+
 export default class App extends Component<Props, State> {
   state = { name: "Buddy" };
 
